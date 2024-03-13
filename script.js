@@ -1,11 +1,11 @@
-// // // // // // // let num1 = 100
-// // // // // // // let num2 = 80
-// // // // // // // if (num2 === 80) {
-// // // // // // //     console.log("num2 é maior que o num1")
-// // // // // // // }
-// // // // // // // else{
-// // // // // // //     console.log("num1 é maior que o num2")
-// // // // // // // }
+ let num1 = 100
+ let num2 = 80
+ if (num2 === 80) {
+    console.log("num2 é maior que o num1")
+ }
+ else{
+    console.log("num1 é maior que o num2")
+}
 
 
 // // // // // // let idade = 2024 - 2000
@@ -70,26 +70,37 @@
 // //     console.log(pesoIdeal);
 // // }
 
+2)Faça um script que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule
+  a sua média. A atribuição de conceitos obedece à tabela abaixo:
 
-// let num1 = Number(prompt("digite sua nota 1:"))
-// let num2 = Number(prompt("digite sua nota 2:"))
-// let media = (num1 + num2)/2;
+    Média de Aproveitamento  Conceito
+      Entre 9.0 e 10.0                      A
+      Entre 7.5 e 9.0                       B
+      Entre 6.0 e 7.5                       C
+      Entre 4.0 e 6.0                       D
+      Entre 4.0 e zero                      E
+    O algoritmo deve mostrar numa janela de alertas notas, a média, o conceito correspondente e a mensagem “APROVADO” se 
+      o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 
-// if (media<10 && media >=9) {
-//     alert (`A nota final foi ${media} e o aluno foi Aprovado por conceito A´`)
-// }
-// else if (media < 9 && media >= 7.5){
-//     alert(`A nota final foi ${media} e o aluno foi Aprovado por conceito B´`)
-// }
-// else if (media < 7.5 && media >= 6){
-//     alert(`A nota final foi ${media} e o aluno foi Aprovado por conceito C´`)
-// }
-// else if (media < 6 && media >= 4){
-//     alert(`A nota final foi ${media} e o aluno foi Reprovado por conceito D´`)
-// }
-// else if(media < 4 && media >= 0){
-//     alert(`A nota final foi ${media} e o aluno foi Reprovado por conceito E´`)
-// }
+ let num1 = Number(prompt("digite sua nota 1:"))
+ let num2 = Number(prompt("digite sua nota 2:"))
+ let media = (num1 + num2)/2;
+
+ if (media<10 && media >=9) {
+     alert (`A nota final foi ${media} e o aluno foi Aprovado por conceito A´`)
+ }
+ else if (media < 9 && media >= 7.5){
+     alert(`A nota final foi ${media} e o aluno foi Aprovado por conceito B´`)
+ }
+ else if (media < 7.5 && media >= 6){
+     alert(`A nota final foi ${media} e o aluno foi Aprovado por conceito C´`)
+ }
+ else if (media < 6 && media >= 4){
+     alert(`A nota final foi ${media} e o aluno foi Reprovado por conceito D´`)
+ }
+ else if(media < 4 && media >= 0){
+     alert(`A nota final foi ${media} e o aluno foi Reprovado por conceito E´`)
+ }
 
 
 
