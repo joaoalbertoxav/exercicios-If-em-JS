@@ -8,22 +8,23 @@
 }
 
 
-// // // // // // let idade = 2024 - 2000
-// // // // // // if (idade >= 16) {
-// // // // // //     console.log("pode votar")
-// // // // // // }
-// // // // // // else{
-// // // // // //     console.log("não pode votar")
-// // // // // // }
+let idade = 2024 - 2000
+if (idade >= 16) {
+   console.log("pode votar")
+}
+else
+{ 
+ console.log("não pode votar")
+ }
 
 
-// // // // // let senha = 1111
-// // // // // if (senha === 1234) {
-// // // // //     console.log("Acesso Permitido")
-// // // // // }
-// // // // // else{
-// // // // //     console.log("Acesso Negado")
-// // // // // }
+ let senha = 1111
+ if (senha === 1234) {
+    console.log("Acesso Permitido")
+}
+ else{
+ console.log("Acesso Negado")
+ }
 
 
 // // // // let quantidade = 40
